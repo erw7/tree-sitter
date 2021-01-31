@@ -1,4 +1,4 @@
-VERSION := 0.17.3
+VERSION := 0.19.4
 
 # install directory layout
 PREFIX ?= /usr/local
@@ -23,8 +23,8 @@ override CFLAGS += -std=gnu99 -fPIC -Ilib/src -Ilib/include
 
 # ABI versioning
 SONAME_MAJOR    := 0
-SONAME_MINOR    := 17
-SONAME_REVISION := 3
+SONAME_MINOR    := 19
+SONAME_REVISION := 4
 
 # OS-specific bits
 ifeq ($(shell uname),Darwin)
